@@ -1,0 +1,43 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Project1_LinReg_</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CandCPP</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Project1_LinReg_</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="cpp_drivers_and_containers.cppproj" File="cpp_drivers_and_containers.cppproj" ReplaceParameters="true">
+      <Folder Name="libm" TargetFolderName="libm" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="adc.cpp">adc.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="adc.hpp">adc.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="array.hpp">array.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="container.hpp">container.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="drivers.hpp">drivers.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="eeprom.hpp">eeprom.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="gpio.cpp">gpio.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="gpio.hpp">gpio.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="lin_reg.cpp">lin_reg.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="lin_reg.hpp">lin_reg.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="list.hpp">list.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="pair.hpp">pair.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="serial.cpp">serial.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="serial.hpp">serial.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="timer.cpp">timer.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="timer.hpp">timer.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="type_traits.hpp">type_traits.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="utils.hpp">utils.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="vector.hpp">vector.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="watchdog.cpp">watchdog.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="watchdog.hpp">watchdog.hpp</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
